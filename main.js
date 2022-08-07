@@ -56,10 +56,10 @@ scene.add(atmosphere);
 const group = new THREE.Group();
 group.add(sphere);
 scene.add(group);
-scene.position.x = innerWidth / 100;
-scene.position.y = -5;
+// scene.position.x = innerWidth / 100;
+// scene.position.y = -5;
 
-camera.position.z = 10;
+camera.position.z = 15;
 
 const mouse = {
   x: undefined,
